@@ -1,0 +1,1849 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>SYNAPSE 2026 | Global AI, Quantum & Leadership Summit</title>
+  <meta name="title" content="SYNAPSE 2026 | Global AI, Quantum & Leadership Summit">
+  <meta name="description" content="Where visionaries shape what's next. Join 5,000+ global founders, researchers, tech pioneers, and Fortune 500 leaders in San Francisco & virtually for SYNAPSE 2026.">
+  <meta name="keywords" content="tech conference 2026, artificial intelligence summit, quantum computing, leadership conference, tech networking, silicon valley summit">
+  <meta name="author" content="SYNAPSE Global Events Foundation">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://synapse2026.global/">
+  <meta property="og:title" content="SYNAPSE 2026 | Global AI, Quantum & Leadership Summit">
+  <meta property="og:description" content="Experience 3 days of revolutionary keynotes, exclusive networking, and emerging technology showcases. San Francisco & Worldwide.">
+  <meta property="og:image" content="assets/og-cover.png">
+
+  <!-- Twitter Meta Tags -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="SYNAPSE 2026 | Global AI, Quantum & Leadership Summit">
+  <meta property="twitter:description" content="Where visionaries shape what's next. October 14–16, 2026. San Francisco, CA.">
+  
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path fill='%236366F1' d='M16 2L3 9l13 7 13-7-13-7zM3 16l13 7 13-7M3 23l13 7 13-7'/></svg>">
+</head>
+<body>
+
+  <!-- Ambient Interactive Glow Follower (Desktop) -->
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer" role="region" aria-live="polite"></div>
+
+  <!-- ==================== HEADER & NAVBAR ==================== -->
+  <header class="navbar-wrapper" id="mainHeader">
+    <nav class="navbar container" id="navbar" aria-label="Main Navigation">
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" aria-label="SYNAPSE 2026 Home">
+        <div class="logo-symbol">
+          <svg width="34" height="34" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#38BDF8" />
+                <stop offset="50%" stop-color="#6366F1" />
+                <stop offset="100%" stop-color="#A855F7" />
+              </linearGradient>
+            </defs>
+            <polygon points="18,3 32,10.5 32,25.5 18,33 4,25.5 4,10.5" stroke="url(#logoGrad)" stroke-width="2.2" fill="rgba(99,102,241,0.12)" />
+            <circle cx="18" cy="18" r="5" fill="url(#logoGrad)" />
+            <line x1="18" y1="3" x2="18" y2="13" stroke="url(#logoGrad)" stroke-width="1.8" />
+            <line x1="32" y1="25.5" x2="22.5" y2="20.5" stroke="url(#logoGrad)" stroke-width="1.8" />
+            <line x1="4" y1="25.5" x2="13.5" y2="20.5" stroke="url(#logoGrad)" stroke-width="1.8" />
+          </svg>
+        </div>
+        <div class="logo-text-group">
+          <span class="logo-name">SYNAPSE</span>
+          <span class="logo-year">2026</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <ul class="nav-links" id="navLinks" role="menubar">
+        <li role="none"><a href="#hero" class="nav-link active" role="menuitem">Home</a></li>
+        <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+        <li role="none"><a href="#highlights" class="nav-link" role="menuitem">Highlights</a></li>
+        <li role="none"><a href="#speakers" class="nav-link" role="menuitem">Speakers</a></li>
+        <li role="none"><a href="#schedule" class="nav-link" role="menuitem">Schedule</a></li>
+        <li role="none"><a href="#tickets" class="nav-link" role="menuitem">Tickets</a></li>
+        <li role="none"><a href="#venue" class="nav-link" role="menuitem">Venue</a></li>
+        <li role="none"><a href="#faq" class="nav-link" role="menuitem">FAQ</a></li>
+      </ul>
+
+      <!-- Action Button & Hamburger -->
+      <div class="nav-actions">
+        <button class="btn btn-sm btn-primary nav-cta" id="navGetTicketBtn" onclick="openRegistrationModal('Professional')">
+          <span>Get Your Ticket</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </button>
+
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span class="bar bar-1"></span>
+          <span class="bar bar-2"></span>
+          <span class="bar bar-3"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer" id="mobileMenu" aria-hidden="true">
+      <div class="mobile-drawer-content">
+        <ul class="mobile-nav-links">
+          <li><a href="#hero" class="mobile-link">Home</a></li>
+          <li><a href="#about" class="mobile-link">About</a></li>
+          <li><a href="#highlights" class="mobile-link">Highlights</a></li>
+          <li><a href="#speakers" class="mobile-link">Speakers</a></li>
+          <li><a href="#schedule" class="mobile-link">Schedule</a></li>
+          <li><a href="#tickets" class="mobile-link">Tickets</a></li>
+          <li><a href="#venue" class="mobile-link">Venue</a></li>
+          <li><a href="#faq" class="mobile-link">FAQ</a></li>
+        </ul>
+        <div class="mobile-drawer-footer">
+          <button class="btn btn-primary btn-block" onclick="openRegistrationModal('Professional'); toggleMobileMenu();">
+            Get Your Ticket
+          </button>
+          <div class="mobile-event-pill">
+            <span class="pulse-dot"></span>
+            Oct 14–16, 2026 • San Francisco
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== 2. HERO SECTION ==================== -->
+    <section class="hero-section" id="hero">
+      <!-- Background Interactive Canvas & Meshes -->
+      <canvas id="heroCanvas" class="hero-canvas"></canvas>
+      <div class="hero-mesh-overlay" aria-hidden="true"></div>
+      <div class="hero-glow-blob blob-1" aria-hidden="true"></div>
+      <div class="hero-glow-blob blob-2" aria-hidden="true"></div>
+
+      <div class="container hero-container">
+        <!-- Badge -->
+        <div class="hero-badge animate-fade-in">
+          <span class="badge-pulse"></span>
+          <span class="badge-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+          </span>
+          <span class="badge-text">GLOBAL SUMMIT 2026 &bull; SAN FRANCISCO &amp; HYBRID</span>
+        </div>
+
+        <!-- Main Headline -->
+        <h1 class="hero-title animate-fade-in delay-1">
+          Where Visionaries <br>
+          <span class="gradient-text">Shape What's Next.</span>
+        </h1>
+
+        <!-- Short Description -->
+        <p class="hero-subtitle animate-fade-in delay-2">
+          The premier gathering of global frontier technologists, Nobel-caliber minds, AI architects, and transformative business titans. Immerse yourself in three extraordinary days of breakthrough knowledge.
+        </p>
+
+        <!-- CTAs -->
+        <div class="hero-cta-group animate-fade-in delay-3">
+          <button class="btn btn-lg btn-primary btn-glow" onclick="openRegistrationModal('Professional')">
+            <span>Get Your Ticket</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </button>
+          <a href="#about" class="btn btn-lg btn-secondary">
+            <span>Explore Event</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </a>
+        </div>
+
+        <!-- Event Key Info Bar -->
+        <div class="hero-meta-bar animate-fade-in delay-4">
+          <div class="meta-item">
+            <div class="meta-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </div>
+            <div class="meta-text">
+              <span class="meta-label">EVENT DATE</span>
+              <span class="meta-value">October 14–16, 2026</span>
+            </div>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-item">
+            <div class="meta-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="meta-text">
+              <span class="meta-label">LOCATION</span>
+              <span class="meta-value">Palace of Fine Arts &amp; Virtual, SF</span>
+            </div>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-item">
+            <div class="meta-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A855F7" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div class="meta-text">
+              <span class="meta-label">DELEGATES</span>
+              <span class="meta-value">5,000+ Leaders Worldwide</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Live Countdown Timer -->
+        <div class="hero-countdown-box animate-fade-in delay-5" aria-label="Event Countdown">
+          <div class="countdown-caption">SUMMIT COMMENCES IN:</div>
+          <div class="countdown-grid" id="countdownGrid">
+            <div class="countdown-card">
+              <span class="countdown-number" id="cdDays">00</span>
+              <span class="countdown-unit">DAYS</span>
+            </div>
+            <span class="cd-colon">:</span>
+            <div class="countdown-card">
+              <span class="countdown-number" id="cdHours">00</span>
+              <span class="countdown-unit">HOURS</span>
+            </div>
+            <span class="cd-colon">:</span>
+            <div class="countdown-card">
+              <span class="countdown-number" id="cdMins">00</span>
+              <span class="countdown-unit">MINUTES</span>
+            </div>
+            <span class="cd-colon">:</span>
+            <div class="countdown-card accent-cd">
+              <span class="countdown-number" id="cdSecs">00</span>
+              <span class="countdown-unit">SECONDS</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== SPONSOR MARQUEE / TICKER ==================== -->
+    <section class="marquee-section" aria-label="Global Partners and Sponsors">
+      <div class="container marquee-header">
+        <span class="marquee-tag">INNOVATION PATRONS &amp; STRATEGIC PARTNERS</span>
+      </div>
+      <div class="marquee-track" id="sponsorTrack" tabindex="0" aria-label="Sponsors continuous list">
+        <div class="marquee-content">
+          <!-- Logo 1 -->
+          <div class="sponsor-item">
+            <span class="sponsor-logo-text"><span class="brand-glyph">✦</span> AETHER DYNAMICS</span>
+          </div>
+          <!-- Logo 2 -->
+          <div class="sponsor-item">
+            <span class="sponsor-logo-text"><span class="brand-glyph">⬡</span> QUANTUM LEAP</span>
+          </div>
+          <!-- Logo 3 -->
+          <div class="sponsor-item">
+            <span class="sponsor-logo-text"><span class="brand-glyph">▲</span> LUMINA AI LABS</span>
+          </div>
+          <!-- Logo 4 -->
+          <div class="sponsor-item">
+            <span class="sponsor-logo-text"><span class="brand-glyph">◈</span> APEX VENTURES</span>
+          </div>
+          <!-- Logo 5 -->
+          <div class="sponsor-item">
+            <span class="sponsor-logo-text"><span class="brand-glyph">❖</span> NEXUS NEURAL</span>
+          </div>
+          <!-- Logo 6 -->
+          <div class="sponsor-item">
+            <span class="sponsor-logo-text"><span class="brand-glyph">◎</span> HORIZON CLOUD</span>
+          </div>
+          <!-- Logo 7 -->
+          <div class="sponsor-item">
+            <span class="sponsor-logo-text"><span class="brand-glyph">⧉</span> SYNTHESIS BIO</span>
+          </div>
+        </div>
+        <!-- Duplicate for smooth infinite scroll -->
+        <div class="marquee-content" aria-hidden="true">
+          <div class="sponsor-item">
+            <span class="sponsor-logo-text"><span class="brand-glyph">✦</span> AETHER DYNAMICS</span>
+          </div>
+          <div class="sponsor-item">
+            <span class="sponsor-logo-text"><span class="brand-glyph">⬡</span> QUANTUM LEAP</span>
+          </div>
+          <div class="sponsor-item">
+            <span class="sponsor-logo-text"><span class="brand-glyph">▲</span> LUMINA AI LABS</span>
+          </div>
+          <div class="sponsor-item">
+            <span class="sponsor-logo-text"><span class="brand-glyph">◈</span> APEX VENTURES</span>
+          </div>
+          <div class="sponsor-item">
+            <span class="sponsor-logo-text"><span class="brand-glyph">❖</span> NEXUS NEURAL</span>
+          </div>
+          <div class="sponsor-item">
+            <span class="sponsor-logo-text"><span class="brand-glyph">◎</span> HORIZON CLOUD</span>
+          </div>
+          <div class="sponsor-item">
+            <span class="sponsor-logo-text"><span class="brand-glyph">⧉</span> SYNTHESIS BIO</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. EVENT INTRODUCTION (ABOUT) ==================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-label-group">
+          <span class="section-pill">ABOUT THE CONCLAVE</span>
+          <h2 class="section-title">An International Stage For The <span class="gradient-text">Next Century.</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <!-- Text Story -->
+          <div class="about-content">
+            <p class="editorial-lead">
+              SYNAPSE is not another standard tech conference. It is a carefully curated synthesis of human intellect, pioneering venture capital, and boundary-pushing scientific breakthroughs designed to accelerate progress for humanity.
+            </p>
+            <p class="about-paragraph">
+              Over three transformative days, we assemble the world's foremost thought leaders, founding engineers, neurotech scientists, autonomous systems architects, and sovereign fund strategists. Here, closed-door agreements are made, groundbreaking models are demonstrated live, and the blueprint of global governance for emerging technology is debated.
+            </p>
+            
+            <div class="about-features-list">
+              <div class="feat-bullet">
+                <div class="bullet-icon">✓</div>
+                <div>
+                  <strong>Curated Executive Cohort:</strong> 72% of delegates are C-Suite, VP-level, or accredited institutional allocators.
+                </div>
+              </div>
+              <div class="feat-bullet">
+                <div class="bullet-icon">✓</div>
+                <div>
+                  <strong>Unfiltered Keynotes:</strong> Real-time code execution, live architectural deep-dives, and zero pre-recorded fluff.
+                </div>
+              </div>
+              <div class="feat-bullet">
+                <div class="bullet-icon">✓</div>
+                <div>
+                  <strong>Bespoke 1:1 Matchmaking:</strong> Proprietary AI matchmaking app arranging high-conviction dealmaking meetings.
+                </div>
+              </div>
+            </div>
+
+            <div class="about-cta-row">
+              <button class="btn btn-primary" onclick="openRegistrationModal('Professional')">
+                Secure Your Delegate Pass
+              </button>
+              <a href="#schedule" class="link-arrow">
+                Review 3-Day Agenda &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- Visual Showcase & Glass Stats -->
+          <div class="about-visual-col">
+            <div class="visual-card-frame">
+              <!-- Visual Tech Grid Abstract Illustration -->
+              <div class="visual-art-box">
+                <svg class="abstract-svg-art" viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <linearGradient id="artGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8" />
+                      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.2" />
+                    </linearGradient>
+                    <radialGradient id="artGlow" cx="50%" cy="50%" r="50%">
+                      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.4" />
+                      <stop offset="100%" stop-color="#040711" stop-opacity="0" />
+                    </radialGradient>
+                  </defs>
+                  <rect width="500" height="400" rx="16" fill="#090E24" />
+                  <circle cx="250" cy="200" r="140" fill="url(#artGlow)" />
+                  <!-- Isometric Cyber Grid Elements -->
+                  <circle cx="250" cy="200" r="90" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.6"/>
+                  <circle cx="250" cy="200" r="130" stroke="#8B5CF6" stroke-width="1.2" opacity="0.4"/>
+                  <polygon points="250,90 345,145 345,255 250,310 155,255 155,145" stroke="url(#artGrad1)" stroke-width="2.5" fill="rgba(99,102,241,0.08)"/>
+                  <polygon points="250,130 310,165 310,235 250,270 190,235 190,165" stroke="#38BDF8" stroke-width="1.8" fill="rgba(56,189,248,0.06)"/>
+                  <!-- Core Node -->
+                  <circle cx="250" cy="200" r="16" fill="#6366F1" />
+                  <circle cx="250" cy="200" r="28" stroke="#A855F7" stroke-width="2" opacity="0.7"/>
+                  <!-- Connection Lines & Data Nodes -->
+                  <line x1="250" y1="90" x2="250" y2="40" stroke="#38BDF8" stroke-width="2" />
+                  <circle cx="250" cy="40" r="5" fill="#38BDF8" />
+                  <line x1="345" y1="145" x2="395" y2="120" stroke="#8B5CF6" stroke-width="2" />
+                  <circle cx="395" cy="120" r="5" fill="#8B5CF6" />
+                  <line x1="345" y1="255" x2="395" y2="280" stroke="#38BDF8" stroke-width="2" />
+                  <circle cx="395" cy="280" r="5" fill="#38BDF8" />
+                  <line x1="155" y1="255" x2="105" y2="280" stroke="#A855F7" stroke-width="2" />
+                  <circle cx="105" cy="280" r="5" fill="#A855F7" />
+                  <line x1="155" y1="145" x2="105" y2="120" stroke="#38BDF8" stroke-width="2" />
+                  <circle cx="105" cy="120" r="5" fill="#38BDF8" />
+                </svg>
+                <div class="art-overlay-glass">
+                  <div class="overlay-pill">
+                    <span class="live-dot"></span> PALACE OF FINE ARTS &bull; OCT 2026
+                  </div>
+                </div>
+              </div>
+
+              <!-- Animated Statistics Grid -->
+              <div class="stats-card-grid" id="statsGrid">
+                <div class="stat-card">
+                  <div class="stat-num-row">
+                    <span class="stat-number" data-target="5000">0</span>
+                    <span class="stat-plus">+</span>
+                  </div>
+                  <div class="stat-title">Attendees Expected</div>
+                  <div class="stat-sub">Across 5 Continents</div>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-num-row">
+                    <span class="stat-number" data-target="80">0</span>
+                    <span class="stat-plus">+</span>
+                  </div>
+                  <div class="stat-title">World-Class Speakers</div>
+                  <div class="stat-sub">Founders, Scientists &amp; CEOs</div>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-num-row">
+                    <span class="stat-number" data-target="40">0</span>
+                    <span class="stat-plus">+</span>
+                  </div>
+                  <div class="stat-title">Keynote Sessions</div>
+                  <div class="stat-sub">Masterclasses &amp; Roundtables</div>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-num-row">
+                    <span class="stat-number" data-target="25">0</span>
+                    <span class="stat-plus">+</span>
+                  </div>
+                  <div class="stat-title">Countries Represented</div>
+                  <div class="stat-sub">Global Delegations</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. EVENT HIGHLIGHTS ==================== -->
+    <section class="section highlights-section" id="highlights">
+      <div class="container">
+        <div class="section-label-group text-center">
+          <span class="section-pill">SUMMIT ARCHITECTURE</span>
+          <h2 class="section-title">Designed for <span class="gradient-text">Unrivaled Impact</span></h2>
+          <p class="section-desc">Six core pillars created to deliver maximum strategic value, high-velocity networking, and deep technical comprehension.</p>
+        </div>
+
+        <div class="highlights-grid">
+          <!-- Card 1 -->
+          <div class="highlight-card">
+            <div class="card-glow-effect"></div>
+            <div class="card-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="highlight-title">Global Executive Networking</h3>
+            <p class="highlight-desc">Connect with sovereign fund leaders, venture partners, and enterprise C-suites through VIP lounges and private bilateral salons.</p>
+            <div class="highlight-footer">
+              <span class="card-tag">High-Value Connections</span>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="highlight-card">
+            <div class="card-glow-effect"></div>
+            <div class="card-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3 class="highlight-title">Visionary Keynote Speakers</h3>
+            <p class="highlight-desc">Uncensored, forward-looking addresses from creators who have steered trillion-dollar markets and authored foundational research.</p>
+            <div class="highlight-footer">
+              <span class="card-tag">Pioneering Voices</span>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="highlight-card">
+            <div class="card-glow-effect"></div>
+            <div class="card-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3 class="highlight-title">Live Innovation Showcase</h3>
+            <p class="highlight-desc">Hands-on access to prototype quantum circuits, humanoid robotics demos, neuro-interfaces, and unreleased multimodal AI platforms.</p>
+            <div class="highlight-footer">
+              <span class="card-tag">Real-World Tech</span>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="highlight-card">
+            <div class="card-glow-effect"></div>
+            <div class="card-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 class="highlight-title">Chatham House Leadership</h3>
+            <p class="highlight-desc">Closed-door sessions held under strict Chatham House rule to debate ethics, autonomous cybersecurity, defense, and global regulation.</p>
+            <div class="highlight-footer">
+              <span class="card-tag">Exclusive Discourse</span>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="highlight-card">
+            <div class="card-glow-effect"></div>
+            <div class="card-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <h3 class="highlight-title">Startup Velocity Zone</h3>
+            <p class="highlight-desc">Fifty handpicked seed-to-series-B frontier startups pitch live to 200+ top venture funds with on-the-spot term sheet commitments.</p>
+            <div class="highlight-footer">
+              <span class="card-tag">$500M+ Capital Pool</span>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="highlight-card">
+            <div class="card-glow-effect"></div>
+            <div class="card-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <h3 class="highlight-title">Future Horizons Lab</h3>
+            <p class="highlight-desc">Deep-dive technical masterclasses into post-silicon photonics, synthetic biological computing, and orbital infrastructure architecture.</p>
+            <div class="highlight-footer">
+              <span class="card-tag">Technical Depth</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 6. SPEAKERS SECTION ==================== -->
+    <section class="section speakers-section" id="speakers">
+      <div class="container">
+        <div class="section-label-group text-center">
+          <span class="section-pill">DISTINGUISHED FACULTY</span>
+          <h2 class="section-title">World-Class <span class="gradient-text">Keynote Speakers</span></h2>
+          <p class="section-desc">Pioneers redefining artificial intelligence, deep tech, space logistics, and enterprise scale.</p>
+        </div>
+
+        <div class="speakers-grid">
+          <!-- Speaker 1 -->
+          <div class="speaker-card" tabindex="0">
+            <div class="speaker-avatar-wrap">
+              <!-- Custom Styled Avatar Vector / Illustration -->
+              <div class="speaker-avatar-art s-1">
+                <div class="avatar-ring"></div>
+                <div class="avatar-portrait">
+                  <svg viewBox="0 0 120 120" width="100%" height="100%">
+                    <circle cx="60" cy="60" r="56" fill="#0D1636"/>
+                    <circle cx="60" cy="46" r="22" fill="#E2E8F0"/>
+                    <path d="M22,102 C26,76 44,70 60,70 C76,70 94,76 98,102" fill="#38BDF8"/>
+                    <circle cx="60" cy="45" r="16" fill="#F8FAFC"/>
+                  </svg>
+                </div>
+                <span class="speaker-country-badge">🇺🇸 USA</span>
+              </div>
+              <div class="speaker-social-bar">
+                <a href="#speakers" class="social-icon-btn" aria-label="LinkedIn Profile"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg></a>
+                <a href="#speakers" class="social-icon-btn" aria-label="Twitter / X Profile"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+              </div>
+            </div>
+            <div class="speaker-info">
+              <h3 class="speaker-name">Dr. Elena Rostova</h3>
+              <p class="speaker-role">Chief AI Scientist &amp; VP of Research</p>
+              <p class="speaker-company">Synthetix Cognitive Systems</p>
+              <div class="speaker-topic">
+                <span>Keynote:</span> "Self-Supervised Reasoning Models at Planetary Scale"
+              </div>
+            </div>
+          </div>
+
+          <!-- Speaker 2 -->
+          <div class="speaker-card" tabindex="0">
+            <div class="speaker-avatar-wrap">
+              <div class="speaker-avatar-art s-2">
+                <div class="avatar-ring"></div>
+                <div class="avatar-portrait">
+                  <svg viewBox="0 0 120 120" width="100%" height="100%">
+                    <circle cx="60" cy="60" r="56" fill="#140E36"/>
+                    <circle cx="60" cy="46" r="22" fill="#E2E8F0"/>
+                    <path d="M22,102 C26,76 44,70 60,70 C76,70 94,76 98,102" fill="#8B5CF6"/>
+                    <circle cx="60" cy="45" r="16" fill="#CBD5E1"/>
+                  </svg>
+                </div>
+                <span class="speaker-country-badge">🇬🇧 UK</span>
+              </div>
+              <div class="speaker-social-bar">
+                <a href="#speakers" class="social-icon-btn" aria-label="LinkedIn Profile"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg></a>
+                <a href="#speakers" class="social-icon-btn" aria-label="Twitter / X Profile"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+              </div>
+            </div>
+            <div class="speaker-info">
+              <h3 class="speaker-name">Marcus Vance</h3>
+              <p class="speaker-role">Founding Partner &amp; Head of Deep Tech</p>
+              <p class="speaker-company">Apex Sovereign Capital</p>
+              <div class="speaker-topic">
+                <span>Keynote:</span> "Allocating $10B into Post-Moore Computing Infrastructure"
+              </div>
+            </div>
+          </div>
+
+          <!-- Speaker 3 -->
+          <div class="speaker-card" tabindex="0">
+            <div class="speaker-avatar-wrap">
+              <div class="speaker-avatar-art s-3">
+                <div class="avatar-ring"></div>
+                <div class="avatar-portrait">
+                  <svg viewBox="0 0 120 120" width="100%" height="100%">
+                    <circle cx="60" cy="60" r="56" fill="#0E2136"/>
+                    <circle cx="60" cy="46" r="22" fill="#F1F5F9"/>
+                    <path d="M22,102 C26,76 44,70 60,70 C76,70 94,76 98,102" fill="#06B6D4"/>
+                    <circle cx="60" cy="45" r="16" fill="#E2E8F0"/>
+                  </svg>
+                </div>
+                <span class="speaker-country-badge">🇨🇭 SUI</span>
+              </div>
+              <div class="speaker-social-bar">
+                <a href="#speakers" class="social-icon-btn" aria-label="LinkedIn Profile"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg></a>
+                <a href="#speakers" class="social-icon-btn" aria-label="Twitter / X Profile"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+              </div>
+            </div>
+            <div class="speaker-info">
+              <h3 class="speaker-name">Dr. Kenji Takahashi</h3>
+              <p class="speaker-role">Director of Quantum Architectures</p>
+              <p class="speaker-company">Kyoto Advanced Quantum Labs</p>
+              <div class="speaker-topic">
+                <span>Keynote:</span> "Fault-Tolerant Quantum Superiority: The 10,000 Qubit Era"
+              </div>
+            </div>
+          </div>
+
+          <!-- Speaker 4 -->
+          <div class="speaker-card" tabindex="0">
+            <div class="speaker-avatar-wrap">
+              <div class="speaker-avatar-art s-4">
+                <div class="avatar-ring"></div>
+                <div class="avatar-portrait">
+                  <svg viewBox="0 0 120 120" width="100%" height="100%">
+                    <circle cx="60" cy="60" r="56" fill="#1F0E36"/>
+                    <circle cx="60" cy="46" r="22" fill="#F8FAFC"/>
+                    <path d="M22,102 C26,76 44,70 60,70 C76,70 94,76 98,102" fill="#EC4899"/>
+                    <circle cx="60" cy="45" r="16" fill="#FCE7F3"/>
+                  </svg>
+                </div>
+                <span class="speaker-country-badge">🇸🇬 SGP</span>
+              </div>
+              <div class="speaker-social-bar">
+                <a href="#speakers" class="social-icon-btn" aria-label="LinkedIn Profile"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg></a>
+                <a href="#speakers" class="social-icon-btn" aria-label="Twitter / X Profile"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+              </div>
+            </div>
+            <div class="speaker-info">
+              <h3 class="speaker-name">Amina Al-Mansoor</h3>
+              <p class="speaker-role">CEO &amp; Co-Founder</p>
+              <p class="speaker-company">Aura Neural Biochips</p>
+              <div class="speaker-topic">
+                <span>Keynote:</span> "Direct Cortical Telepathy: High-Bandwidth Brain Interfaces"
+              </div>
+            </div>
+          </div>
+
+          <!-- Speaker 5 -->
+          <div class="speaker-card" tabindex="0">
+            <div class="speaker-avatar-wrap">
+              <div class="speaker-avatar-art s-5">
+                <div class="avatar-ring"></div>
+                <div class="avatar-portrait">
+                  <svg viewBox="0 0 120 120" width="100%" height="100%">
+                    <circle cx="60" cy="60" r="56" fill="#0B1A2C"/>
+                    <circle cx="60" cy="46" r="22" fill="#E2E8F0"/>
+                    <path d="M22,102 C26,76 44,70 60,70 C76,70 94,76 98,102" fill="#3B82F6"/>
+                    <circle cx="60" cy="45" r="16" fill="#93C5FD"/>
+                  </svg>
+                </div>
+                <span class="speaker-country-badge">🇩🇪 DEU</span>
+              </div>
+              <div class="speaker-social-bar">
+                <a href="#speakers" class="social-icon-btn" aria-label="LinkedIn Profile"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg></a>
+                <a href="#speakers" class="social-icon-btn" aria-label="Twitter / X Profile"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+              </div>
+            </div>
+            <div class="speaker-info">
+              <h3 class="speaker-name">Julian von Brandt</h3>
+              <p class="speaker-role">Chief Technology Officer</p>
+              <p class="speaker-company">Kinetix Robotics Global</p>
+              <div class="speaker-topic">
+                <span>Keynote:</span> "Zero-Shot Sim2Real: Bipedal Humanoids in Heavy Industry"
+              </div>
+            </div>
+          </div>
+
+          <!-- Speaker 6 -->
+          <div class="speaker-card" tabindex="0">
+            <div class="speaker-avatar-wrap">
+              <div class="speaker-avatar-art s-6">
+                <div class="avatar-ring"></div>
+                <div class="avatar-portrait">
+                  <svg viewBox="0 0 120 120" width="100%" height="100%">
+                    <circle cx="60" cy="60" r="56" fill="#1A1528"/>
+                    <circle cx="60" cy="46" r="22" fill="#F1F5F9"/>
+                    <path d="M22,102 C26,76 44,70 60,70 C76,70 94,76 98,102" fill="#F59E0B"/>
+                    <circle cx="60" cy="45" r="16" fill="#FEF3C7"/>
+                  </svg>
+                </div>
+                <span class="speaker-country-badge">🇯🇵 JPN</span>
+              </div>
+              <div class="speaker-social-bar">
+                <a href="#speakers" class="social-icon-btn" aria-label="LinkedIn Profile"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg></a>
+                <a href="#speakers" class="social-icon-btn" aria-label="Twitter / X Profile"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+              </div>
+            </div>
+            <div class="speaker-info">
+              <h3 class="speaker-name">Dr. Maya Lin</h3>
+              <p class="speaker-role">Head of Algorithmic Safety &amp; Governance</p>
+              <p class="speaker-company">Pan-Pacific Tech Alliance</p>
+              <div class="speaker-topic">
+                <span>Keynote:</span> "Sovereign AI Enclaves: Cryptographic Model Attestation"
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 7. EVENT SCHEDULE ==================== -->
+    <section class="section schedule-section" id="schedule">
+      <div class="container">
+        <div class="section-label-group text-center">
+          <span class="section-pill">CHRONOLOGY OF INNOVATION</span>
+          <h2 class="section-title">The Three-Day <span class="gradient-text">Master Schedule</span></h2>
+          <p class="section-desc">Seamlessly move between plenary keynotes, deep-dive technical workshops, and curated investor sessions.</p>
+        </div>
+
+        <!-- Day Selector Tabs -->
+        <div class="schedule-tabs" role="tablist" aria-label="Schedule Days">
+          <button class="tab-btn active" id="tabDay1" role="tab" aria-selected="true" aria-controls="panelDay1" onclick="switchScheduleDay(1)">
+            <span class="tab-day">DAY 01</span>
+            <span class="tab-sub">Oct 14 • Frontier AI &amp; Quantum</span>
+          </button>
+          <button class="tab-btn" id="tabDay2" role="tab" aria-selected="false" aria-controls="panelDay2" onclick="switchScheduleDay(2)">
+            <span class="tab-day">DAY 02</span>
+            <span class="tab-sub">Oct 15 • Neurotech &amp; Autonomous Systems</span>
+          </button>
+          <button class="tab-btn" id="tabDay3" role="tab" aria-selected="false" aria-controls="panelDay3" onclick="switchScheduleDay(3)">
+            <span class="tab-day">DAY 03</span>
+            <span class="tab-sub">Oct 16 • Capital Allocation &amp; Future Scale</span>
+          </button>
+        </div>
+
+        <!-- Timeline Panels Container -->
+        <div class="timeline-wrapper">
+          <!-- DAY 1 PANEL -->
+          <div class="timeline-panel active" id="panelDay1" role="tabpanel" aria-labelledby="tabDay1">
+            
+            <!-- Item 1 -->
+            <div class="timeline-row">
+              <div class="time-col">
+                <span class="time-main">08:30 AM</span>
+                <span class="time-zone">PDT</span>
+              </div>
+              <div class="timeline-marker">
+                <div class="marker-dot"></div>
+                <div class="marker-line"></div>
+              </div>
+              <div class="session-card">
+                <div class="session-meta">
+                  <span class="category-badge cat-general">Networking &amp; Breakfast</span>
+                  <span class="room-pill">Grand Rotunda</span>
+                </div>
+                <h3 class="session-title">Global Delegates Registration &amp; VIP Breakfast</h3>
+                <p class="session-desc">Welcome check-in, credential provisioning, and executive networking breakfast accompanied by ambient synthesizer soundscapes.</p>
+                <div class="session-speakers">
+                  <div class="speaker-pill">Opening Ceremony Hosts</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="timeline-row">
+              <div class="time-col">
+                <span class="time-main">10:00 AM</span>
+                <span class="time-zone">PDT</span>
+              </div>
+              <div class="timeline-marker">
+                <div class="marker-dot pulse"></div>
+                <div class="marker-line"></div>
+              </div>
+              <div class="session-card featured">
+                <div class="session-meta">
+                  <span class="category-badge cat-keynote">Plenary Keynote</span>
+                  <span class="room-pill">Main Hall Auditorium A</span>
+                </div>
+                <h3 class="session-title">Self-Supervised Reasoning Models: Beyond the Limits of Next-Token Prediction</h3>
+                <p class="session-desc">A deep architectural disclosure demonstrating active recursive hypothesis testing in foundation models operating at terawatt scale.</p>
+                <div class="session-speakers">
+                  <div class="speaker-pill">Dr. Elena Rostova (Synthetix)</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="timeline-row">
+              <div class="time-col">
+                <span class="time-main">01:30 PM</span>
+                <span class="time-zone">PDT</span>
+              </div>
+              <div class="timeline-marker">
+                <div class="marker-dot"></div>
+                <div class="marker-line"></div>
+              </div>
+              <div class="session-card">
+                <div class="session-meta">
+                  <span class="category-badge cat-tech">Technical Workshop</span>
+                  <span class="room-pill">Silicon Stage B</span>
+                </div>
+                <h3 class="session-title">Fault-Tolerant Quantum Superiority: From Cryostats to Commercial Silicon</h3>
+                <p class="session-desc">Live benchmarks of topological qubits and photonic interconnects solving NP-hard cryptographic topology problems in milliseconds.</p>
+                <div class="session-speakers">
+                  <div class="speaker-pill">Dr. Kenji Takahashi (Kyoto Quantum)</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="timeline-row">
+              <div class="time-col">
+                <span class="time-main">04:30 PM</span>
+                <span class="time-zone">PDT</span>
+              </div>
+              <div class="timeline-marker">
+                <div class="marker-dot"></div>
+              </div>
+              <div class="session-card">
+                <div class="session-meta">
+                  <span class="category-badge cat-panel">Executive Roundtable</span>
+                  <span class="room-pill">Chatham Chamber</span>
+                </div>
+                <h3 class="session-title">Sovereign Data Borders and the New Geopolitics of High-Compute Compute Clusters</h3>
+                <p class="session-desc">A closed panel exploring export controls, clean-energy nuclear powering for AI server farms, and international treaty frameworks.</p>
+                <div class="session-speakers">
+                  <div class="speaker-pill">Marcus Vance &bull; Dr. Maya Lin</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- DAY 2 PANEL -->
+          <div class="timeline-panel" id="panelDay2" role="tabpanel" aria-labelledby="tabDay2">
+            
+            <div class="timeline-row">
+              <div class="time-col">
+                <span class="time-main">09:15 AM</span>
+                <span class="time-zone">PDT</span>
+              </div>
+              <div class="timeline-marker">
+                <div class="marker-dot pulse"></div>
+                <div class="marker-line"></div>
+              </div>
+              <div class="session-card featured">
+                <div class="session-meta">
+                  <span class="category-badge cat-keynote">Plenary Keynote</span>
+                  <span class="room-pill">Main Hall Auditorium A</span>
+                </div>
+                <h3 class="session-title">Direct Cortical Telepathy: Connecting High-Bandwidth Neural Threads</h3>
+                <p class="session-desc">Unveiling human trials of 16,000-channel non-invasive brain-machine transducers with sub-millisecond cognitive latency.</p>
+                <div class="session-speakers">
+                  <div class="speaker-pill">Amina Al-Mansoor (Aura Neural)</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-row">
+              <div class="time-col">
+                <span class="time-main">11:45 AM</span>
+                <span class="time-zone">PDT</span>
+              </div>
+              <div class="timeline-marker">
+                <div class="marker-dot"></div>
+                <div class="marker-line"></div>
+              </div>
+              <div class="session-card">
+                <div class="session-meta">
+                  <span class="category-badge cat-tech">Robotics Live Demo</span>
+                  <span class="room-pill">Arena Pavilion</span>
+                </div>
+                <h3 class="session-title">Zero-Shot Bipedal Agility: Humanoid Fleet Deployment in Heavy Industrial Logistics</h3>
+                <p class="session-desc">Live untethered obstacle navigation and precision tool manipulation demonstrated on stage with twelve autonomous humanoid units.</p>
+                <div class="session-speakers">
+                  <div class="speaker-pill">Julian von Brandt (Kinetix)</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-row">
+              <div class="time-col">
+                <span class="time-main">03:00 PM</span>
+                <span class="time-zone">PDT</span>
+              </div>
+              <div class="timeline-marker">
+                <div class="marker-dot"></div>
+              </div>
+              <div class="session-card">
+                <div class="session-meta">
+                  <span class="category-badge cat-panel">Investor Demo Day</span>
+                  <span class="room-pill">Venture Salon</span>
+                </div>
+                <h3 class="session-title">The SYNAPSE 50: Frontier Seed &amp; Series-A Startup Pitch Showcase</h3>
+                <p class="session-desc">Fifty vetted deep-tech startups present 3-minute pitches to a panel of Tier-1 Sand Hill Road and sovereign seed partners.</p>
+                <div class="session-speakers">
+                  <div class="speaker-pill">Selected 50 Founder Finalists</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- DAY 3 PANEL -->
+          <div class="timeline-panel" id="panelDay3" role="tabpanel" aria-labelledby="tabDay3">
+            
+            <div class="timeline-row">
+              <div class="time-col">
+                <span class="time-main">10:00 AM</span>
+                <span class="time-zone">PDT</span>
+              </div>
+              <div class="timeline-marker">
+                <div class="marker-dot pulse"></div>
+                <div class="marker-line"></div>
+              </div>
+              <div class="session-card featured">
+                <div class="session-meta">
+                  <span class="category-badge cat-keynote">Plenary Keynote</span>
+                  <span class="room-pill">Main Hall Auditorium A</span>
+                </div>
+                <h3 class="session-title">The $10 Trillion Frontier: Macro Capital Rotation into Transformative Technologies</h3>
+                <p class="session-desc">Strategic analysis of the shifting global liquidity pools funding autonomous energy, space commercialization, and synthetic biology.</p>
+                <div class="session-speakers">
+                  <div class="speaker-pill">Marcus Vance (Apex Capital)</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-row">
+              <div class="time-col">
+                <span class="time-main">01:30 PM</span>
+                <span class="time-zone">PDT</span>
+              </div>
+              <div class="timeline-marker">
+                <div class="marker-dot"></div>
+                <div class="marker-line"></div>
+              </div>
+              <div class="session-card">
+                <div class="session-meta">
+                  <span class="category-badge cat-tech">Fireside Debate</span>
+                  <span class="room-pill">Amphitheater</span>
+                </div>
+                <h3 class="session-title">Synthetic Biology &amp; In-Vivo Molecular Computing: Writing the Next Organic Operating System</h3>
+                <p class="session-desc">Exploring programmed CRISPR cellular logic gates and self-healing synthetic tissues designed for zero-gravity environments.</p>
+                <div class="session-speakers">
+                  <div class="speaker-pill">Global Research Fellowship</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline-row">
+              <div class="time-col">
+                <span class="time-main">06:00 PM</span>
+                <span class="time-zone">PDT</span>
+              </div>
+              <div class="timeline-marker">
+                <div class="marker-dot"></div>
+              </div>
+              <div class="session-card">
+                <div class="session-meta">
+                  <span class="category-badge cat-general">Gala Dinner &amp; Awards</span>
+                  <span class="room-pill">Fine Arts Grand Terrace</span>
+                </div>
+                <h3 class="session-title">SYNAPSE 2026 Innovation Awards &amp; Concluding Visionary Gala</h3>
+                <p class="session-desc">Celebrating the groundbreaking teams of the year with culinary excellence, acoustic performances, and twilight networking.</p>
+                <div class="session-speakers">
+                  <div class="speaker-pill">All Speakers &amp; VIP Attendees</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 8. TICKET SECTION ==================== -->
+    <section class="section tickets-section" id="tickets">
+      <div class="container">
+        <div class="section-label-group text-center">
+          <span class="section-pill">CONFERENCE REGISTRATION</span>
+          <h2 class="section-title">Select Your <span class="gradient-text">Summit Experience</span></h2>
+          <p class="section-desc">Tiered passes structured for individual technologists, corporate leadership delegations, and distinguished VIPs.</p>
+        </div>
+
+        <div class="tickets-grid">
+          <!-- BASIC TICKET -->
+          <div class="ticket-card" id="tierBasic">
+            <div class="ticket-header">
+              <span class="ticket-badge">STANDARD ACCESS</span>
+              <h3 class="ticket-name">Basic Pass</h3>
+              <p class="ticket-purpose">For individual researchers, developers, and founders attending general tracks.</p>
+              <div class="ticket-price-block">
+                <span class="currency">$</span>
+                <span class="price-val">499</span>
+                <span class="price-period">/ attendee</span>
+              </div>
+            </div>
+
+            <div class="ticket-features">
+              <ul>
+                <li><span class="check-icon">✓</span> Full 3-day access to Main Hall &amp; Stage B</li>
+                <li><span class="check-icon">✓</span> Access to Innovation Showcase &amp; Startup Zone</li>
+                <li><span class="check-icon">✓</span> Digital conference recording access (60 days)</li>
+                <li><span class="check-icon">✓</span> Standard networking app profile</li>
+                <li><span class="check-icon">✓</span> Daily networking lunch &amp; coffee bars</li>
+                <li class="disabled"><span class="cross-icon">✕</span> <span>VIP Executive Lounge &amp; Private Suites</span></li>
+                <li class="disabled"><span class="cross-icon">✕</span> <span>Chatham House Roundtable Invitations</span></li>
+                <li class="disabled"><span class="cross-icon">✕</span> <span>VIP Gala Dinner &amp; Speaker Reception</span></li>
+              </ul>
+            </div>
+
+            <button class="btn btn-secondary btn-block" onclick="openRegistrationModal('Basic')">
+              Get Basic Pass
+            </button>
+          </div>
+
+          <!-- PROFESSIONAL TICKET (RECOMMENDED) -->
+          <div class="ticket-card featured" id="tierProfessional">
+            <div class="featured-ribbon">
+              <span class="sparkle">★</span> MOST POPULAR CHOICE
+            </div>
+            <div class="ticket-header">
+              <span class="ticket-badge highlight">EXECUTIVE TIER</span>
+              <h3 class="ticket-name">Professional</h3>
+              <p class="ticket-purpose">Recommended for corporate leaders, investors, and team leads seeking high-value access.</p>
+              <div class="ticket-price-block">
+                <span class="currency">$</span>
+                <span class="price-val">999</span>
+                <span class="price-period">/ attendee</span>
+              </div>
+            </div>
+
+            <div class="ticket-features">
+              <ul>
+                <li><span class="check-icon highlight">✓</span> <strong>All Basic features included</strong></li>
+                <li><span class="check-icon highlight">✓</span> Priority seating in all Keynote auditoriums</li>
+                <li><span class="check-icon highlight">✓</span> Access to Technical Deep-Dive Masterclasses</li>
+                <li><span class="check-icon highlight">✓</span> Advanced AI 1:1 matchmaking meeting bookings</li>
+                <li><span class="check-icon highlight">✓</span> Lifetime 4K digital archive + slide decks</li>
+                <li><span class="check-icon highlight">✓</span> Access to official After-Hours Mixer</li>
+                <li class="disabled"><span class="cross-icon">✕</span> <span>Chatham House Closed-Door Council</span></li>
+                <li class="disabled"><span class="cross-icon">✕</span> <span>Private Airport Chauffeur &amp; Concierge</span></li>
+              </ul>
+            </div>
+
+            <button class="btn btn-primary btn-block btn-glow" onclick="openRegistrationModal('Professional')">
+              Get Professional Pass
+            </button>
+          </div>
+
+          <!-- VIP TICKET -->
+          <div class="ticket-card vip" id="tierVip">
+            <div class="vip-glow-accent"></div>
+            <div class="ticket-header">
+              <span class="ticket-badge vip">ULTRA EXCLUSIVE</span>
+              <h3 class="ticket-name">VIP Conclave</h3>
+              <p class="ticket-purpose">Full all-access pass for C-suite executives, managing partners, and keynote dignitaries.</p>
+              <div class="ticket-price-block">
+                <span class="currency">$</span>
+                <span class="price-val">1,999</span>
+                <span class="price-period">/ attendee</span>
+              </div>
+            </div>
+
+            <div class="ticket-features">
+              <ul>
+                <li><span class="check-icon gold">✓</span> <strong>All Professional features included</strong></li>
+                <li><span class="check-icon gold">✓</span> Private VIP Green Room &amp; Executive Boardroom access</li>
+                <li><span class="check-icon gold">✓</span> Invitation to Chatham House closed-door sessions</li>
+                <li><span class="check-icon gold">✓</span> Seat at the prestigious Concluding Gala Dinner</li>
+                <li><span class="check-icon gold">✓</span> Direct 1:1 access to Keynote speakers</li>
+                <li><span class="check-icon gold">✓</span> Dedicated personal concierge service on-site</li>
+                <li><span class="check-icon gold">✓</span> Luxury SFO Airport private executive transport</li>
+                <li><span class="check-icon gold">✓</span> Permanent alumni network membership</li>
+              </ul>
+            </div>
+
+            <button class="btn btn-gold btn-block" onclick="openRegistrationModal('VIP')">
+              Get VIP Pass
+            </button>
+          </div>
+        </div>
+
+        <div class="ticket-guarantee-row">
+          <div class="guarantee-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span>Secure 256-Bit Encrypted Checkout</span>
+          </div>
+          <div class="guarantee-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>100% Refundable Until September 15, 2026</span>
+          </div>
+          <div class="guarantee-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+            <span>Group Discounts Available (5+ Delegates: -20%)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 10. VENUE SECTION ==================== -->
+    <section class="section venue-section" id="venue">
+      <div class="container">
+        <div class="section-label-group text-center">
+          <span class="section-pill">LOCATION &amp; DESTINATION</span>
+          <h2 class="section-title">Palace of Fine Arts <span class="gradient-text">San Francisco</span></h2>
+          <p class="section-desc">An iconic classical architectural monument harmonized with state-of-the-art technological production infrastructure.</p>
+        </div>
+
+        <div class="venue-showcase-grid">
+          <!-- Venue Graphic / Image Simulation -->
+          <div class="venue-card-main">
+            <div class="venue-visual">
+              <!-- Architectural Landmark Vector Graphic Art -->
+              <svg viewBox="0 0 700 440" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#070B1E" />
+                    <stop offset="60%" stop-color="#111838" />
+                    <stop offset="100%" stop-color="#1E1B4B" />
+                  </linearGradient>
+                  <radialGradient id="venueDomeGlow" cx="50%" cy="40%" r="50%">
+                    <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.45" />
+                    <stop offset="100%" stop-color="#040711" stop-opacity="0" />
+                  </radialGradient>
+                </defs>
+                <rect width="700" height="440" fill="url(#skyGrad)" />
+                <circle cx="350" cy="210" r="220" fill="url(#venueDomeGlow)" />
+                <!-- Classical Rotunda Silhouette -->
+                <!-- Base / Water reflection -->
+                <rect y="350" width="700" height="90" fill="#060919" />
+                <line x1="0" y1="350" x2="700" y2="350" stroke="#38BDF8" stroke-width="1.5" opacity="0.4" />
+                <!-- Rotunda Dome -->
+                <ellipse cx="350" cy="180" rx="140" ry="70" fill="#172147" stroke="#6366F1" stroke-width="2"/>
+                <path d="M210,180 Q350,70 490,180" fill="#1C2754" stroke="#8B5CF6" stroke-width="2"/>
+                <!-- Columns -->
+                <rect x="230" y="180" width="14" height="150" fill="#283569" />
+                <rect x="270" y="180" width="14" height="150" fill="#283569" />
+                <rect x="310" y="180" width="14" height="150" fill="#314282" />
+                <rect x="343" y="180" width="14" height="150" fill="#38BDF8" opacity="0.6"/>
+                <rect x="376" y="180" width="14" height="150" fill="#314282" />
+                <rect x="416" y="180" width="14" height="150" fill="#283569" />
+                <rect x="456" y="180" width="14" height="150" fill="#283569" />
+                <!-- Tech Beam Lights projecting to sky -->
+                <polygon points="350,180 300,0 400,0" fill="rgba(56,189,248,0.08)" />
+                <line x1="350" y1="180" x2="350" y2="0" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="8 6" opacity="0.7"/>
+                <!-- Water ripple lines -->
+                <line x1="150" y1="380" x2="250" y2="380" stroke="#38BDF8" stroke-width="1" opacity="0.3"/>
+                <line x1="300" y1="400" x2="440" y2="400" stroke="#8B5CF6" stroke-width="1.5" opacity="0.4"/>
+                <line x1="470" y1="375" x2="550" y2="375" stroke="#38BDF8" stroke-width="1" opacity="0.3"/>
+              </svg>
+              <div class="venue-badge-overlay">
+                <span class="venue-pill">ICONIC SAN FRANCISCO VENUE</span>
+              </div>
+            </div>
+            <div class="venue-body">
+              <div class="venue-title-row">
+                <div>
+                  <h3 class="venue-name">Palace of Fine Arts &amp; Exhibition Center</h3>
+                  <p class="venue-address">3301 Lyon Street, Marina District, San Francisco, CA 94123</p>
+                </div>
+                <a href="https://maps.google.com/?q=Palace+of+Fine+Arts+San+Francisco" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" id="viewLocationBtn">
+                  <span>View on Google Maps</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+              </div>
+
+              <div class="venue-amenities-grid">
+                <div class="amenity-item">
+                  <div class="amenity-icon">✈️</div>
+                  <div class="amenity-info">
+                    <strong>Transit &amp; Airports:</strong>
+                    <span>25 mins from SFO Airport, complimentary VIP shuttles every 30 mins.</span>
+                  </div>
+                </div>
+                <div class="amenity-item">
+                  <div class="amenity-icon">🏨</div>
+                  <div class="amenity-info">
+                    <strong>Partner 5-Star Hotels:</strong>
+                    <span>Ritz-Carlton, Fairmont Nob Hill &amp; Four Seasons Silicon Valley (Summit rates).</span>
+                  </div>
+                </div>
+                <div class="amenity-item">
+                  <div class="amenity-icon">⚡</div>
+                  <div class="amenity-info">
+                    <strong>Tech Infrastructure:</strong>
+                    <span>10 Gbps redundant fiber Wi-Fi 7, multi-channel live translation pods.</span>
+                  </div>
+                </div>
+                <div class="amenity-item">
+                  <div class="amenity-icon">🍽️</div>
+                  <div class="amenity-info">
+                    <strong>Gourmet Catering:</strong>
+                    <span>Michelin-curated organic dining, artisanal espresso lounges, and cocktail gardens.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Map Placeholder / Coordinate Compass -->
+          <div class="venue-map-card">
+            <div class="map-card-header">
+              <span class="map-tag">LIVE GEO COORDINATES</span>
+              <span class="coords-text">37.8020° N, 122.4487° W</span>
+            </div>
+            
+            <div class="map-visual-box" id="interactiveMapBox">
+              <!-- Digital Radar Grid -->
+              <div class="radar-circle rc-1"></div>
+              <div class="radar-circle rc-2"></div>
+              <div class="radar-circle rc-3"></div>
+              <div class="radar-sweep"></div>
+              
+              <!-- Map Pin Central -->
+              <div class="map-pin" title="SYNAPSE 2026 Summit Headquarters">
+                <div class="pin-pulse"></div>
+                <div class="pin-marker">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="#6366F1"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                </div>
+                <span class="pin-label">PALACE OF FINE ARTS</span>
+              </div>
+
+              <!-- Surrounding Landmarks -->
+              <div class="sub-pin pin-sfo" style="top: 25%; left: 20%;">
+                <span class="sub-dot"></span> Golden Gate Bridge (5 mins)
+              </div>
+              <div class="sub-pin pin-sfo" style="bottom: 25%; right: 18%;">
+                <span class="sub-dot"></span> SFO Airport (VIP Shuttle)
+              </div>
+            </div>
+
+            <div class="map-card-footer">
+              <div class="map-status">
+                <span class="status-online-dot"></span>
+                <span>Hybrid Virtual Livestreaming broadcast in 4K HDR worldwide</span>
+              </div>
+              <button class="btn btn-sm btn-outline-cyan" onclick="openRegistrationModal('Basic')">
+                Register for Virtual Pass
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 12. TESTIMONIALS ==================== -->
+    <section class="section testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="section-label-group text-center">
+          <span class="section-pill">GLOBAL ACCLAIM</span>
+          <h2 class="section-title">What Previous <span class="gradient-text">Delegates Say</span></h2>
+          <p class="section-desc">Feedback from managing directors, researchers, and unicorn founders who consider SYNAPSE their most impactful event of the year.</p>
+        </div>
+
+        <div class="testimonial-carousel" id="testimonialCarousel">
+          <!-- Slide Container -->
+          <div class="testimonial-track" id="testimonialTrack">
+            <!-- Slide 1 -->
+            <div class="testimonial-slide active" role="group" aria-roledescription="slide" aria-label="1 of 3">
+              <div class="testimonial-card">
+                <div class="quote-mark">“</div>
+                <div class="star-rating" aria-label="5 out of 5 stars">
+                  ★★★★★
+                </div>
+                <p class="quote-body">
+                  "SYNAPSE was by far the single most high-density event for our firm this year. We closed our Series-B lead investor in the VIP lounge and formed two major neural research partnerships within 48 hours. Nothing else in the world operates at this caliber."
+                </p>
+                <div class="author-row">
+                  <div class="author-avatar av-1">
+                    <span>AK</span>
+                  </div>
+                  <div class="author-meta">
+                    <h4 class="author-name">Alexander King</h4>
+                    <p class="author-role">Founder &amp; CEO, NeuralVoxel Labs</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="testimonial-slide" role="group" aria-roledescription="slide" aria-label="2 of 3">
+              <div class="testimonial-card">
+                <div class="quote-mark">“</div>
+                <div class="star-rating" aria-label="5 out of 5 stars">
+                  ★★★★★
+                </div>
+                <p class="quote-body">
+                  "The quality of thinking on display is peerless. While most conferences offer predictable corporate marketing talks, SYNAPSE keynotes feature live code executions, real mathematical proofs, and unreleased quantum architectures. Simply indispensable."
+                </p>
+                <div class="author-row">
+                  <div class="author-avatar av-2">
+                    <span>SC</span>
+                  </div>
+                  <div class="author-meta">
+                    <h4 class="author-name">Dr. Sophia Chen</h4>
+                    <p class="author-role">Managing Director, Quantum Horizons Fund</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="testimonial-slide" role="group" aria-roledescription="slide" aria-label="3 of 3">
+              <div class="testimonial-card">
+                <div class="quote-mark">“</div>
+                <div class="star-rating" aria-label="5 out of 5 stars">
+                  ★★★★★
+                </div>
+                <p class="quote-body">
+                  "The Chatham House closed-door sessions alone justify the entire annual travel budget. The level of candor between policymakers, AI safety leaders, and defense technologists was unprecedented. If you care about the future of tech, you must be here."
+                </p>
+                <div class="author-row">
+                  <div class="author-avatar av-3">
+                    <span>DM</span>
+                  </div>
+                  <div class="author-meta">
+                    <h4 class="author-name">David Moreau</h4>
+                    <p class="author-role">Senior Vice President, Global Tech Strategy, Euronext</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <div class="carousel-nav">
+            <button class="carousel-btn prev-btn" id="prevTestimonialBtn" aria-label="Previous Testimonial">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <div class="carousel-dots" id="carouselDots" role="tablist">
+              <button class="dot-btn active" role="tab" aria-label="Go to slide 1" aria-selected="true"></button>
+              <button class="dot-btn" role="tab" aria-label="Go to slide 2" aria-selected="false"></button>
+              <button class="dot-btn" role="tab" aria-label="Go to slide 3" aria-selected="false"></button>
+            </div>
+            <button class="carousel-btn next-btn" id="nextTestimonialBtn" aria-label="Next Testimonial">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 13. FAQ ACCORDION ==================== -->
+    <section class="section faq-section" id="faq">
+      <div class="container">
+        <div class="section-label-group text-center">
+          <span class="section-pill">FREQUENTLY ASKED QUESTIONS</span>
+          <h2 class="section-title">Everything You <span class="gradient-text">Need to Know</span></h2>
+          <p class="section-desc">Key details regarding registration, credentials, schedules, travel accommodations, and venue access.</p>
+        </div>
+
+        <div class="faq-accordion-container" id="faqAccordion">
+          <!-- Item 1 -->
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-1">
+              <span class="faq-question">What are the exact event dates and summit schedule?</span>
+              <span class="faq-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer" id="faq-ans-1" role="region">
+              <div class="faq-answer-inner">
+                SYNAPSE 2026 takes place October 14 through October 16, 2026. Daily proceedings commence with delegate breakfast and badge collection at 08:00 AM PDT, followed by keynotes at 09:30 AM PDT, concluding with evening mixers and dinners from 06:30 PM PDT onwards.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-2">
+              <span class="faq-question">What is the ticket cancellation and delegate transfer policy?</span>
+              <span class="faq-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer" id="faq-ans-2" role="region">
+              <div class="faq-answer-inner">
+                All purchased passes are 100% refundable with zero administrative fees until September 15, 2026. After this date, tickets may be freely transferred to another colleague within your organization at any time prior to badge collection through the self-service registration portal.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-3">
+              <span class="faq-question">Where is the venue and how do I get there?</span>
+              <span class="faq-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer" id="faq-ans-3" role="region">
+              <div class="faq-answer-inner">
+                The summit is hosted at the Palace of Fine Arts &amp; Exhibition Pavilion (3301 Lyon St, San Francisco, CA). Complimentary executive express shuttles run continuously every 30 minutes from San Francisco International Airport (SFO) and our partner hotels directly to the main pavilion gates.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-4">
+              <span class="faq-question">Can virtual attendees interact directly with keynote speakers?</span>
+              <span class="faq-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer" id="faq-ans-4" role="region">
+              <div class="faq-answer-inner">
+                Yes. Virtual delegates access our ultra-low latency interactive portal equipped with live real-time Q&amp;A submission, AI-translated closed captioning in 16 languages, virtual 1:1 networking speed breakout rooms, and downloadable digital artifacts.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-5">
+              <span class="faq-question">Are meals, dietary accommodations, and refreshments included?</span>
+              <span class="faq-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer" id="faq-ans-5" role="region">
+              <div class="faq-answer-inner">
+                Yes. All in-person pass holders receive comprehensive catering including daily artisanal breakfast, a three-course plated lunch curated by Michelin-awarded chefs, continuous barista coffee and matcha lounges, and evening cocktail reception hors d'oeuvres. Full vegan, gluten-free, halal, and kosher options are prepared on-site.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-6">
+              <span class="faq-question">What accessibility services are provided at the summit?</span>
+              <span class="faq-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer" id="faq-ans-6" role="region">
+              <div class="faq-answer-inner">
+                The Palace of Fine Arts is fully ADA compliant with ramp access, step-free navigation across all auditoriums, dedicated sensory decompression rooms, certified American Sign Language (ASL) interpreters on the main stage, and assistive listening headsets available at the concierge desk.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 7 -->
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-7">
+              <span class="faq-question">Are group enterprise discounts available for corporate delegations?</span>
+              <span class="faq-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer" id="faq-ans-7" role="region">
+              <div class="faq-answer-inner">
+                Yes. Groups of 5 or more delegates qualify for an immediate 20% discount on Professional and Basic passes. Delegations of 10 or more also receive a dedicated reserved meeting table in the Executive Lounge. Contact <a href="mailto:delegations@synapse2026.global" class="text-cyan">delegations@synapse2026.global</a> for custom billing.
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 8 -->
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-8">
+              <span class="faq-question">How do I inquire regarding strategic sponsorship or exhibiting?</span>
+              <span class="faq-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer" id="faq-ans-8" role="region">
+              <div class="faq-answer-inner">
+                Our limited strategic sponsorship packages (Patron, Principal, and Founding Partner) offer custom stage branding, curated boardroom hosting, and recruitment pavilions. Inquire via the "Become a Sponsor" button or email <a href="mailto:partnerships@synapse2026.global" class="text-cyan">partnerships@synapse2026.global</a>.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 14. FINAL CTA ==================== -->
+    <section class="section final-cta-section" id="finalCta">
+      <div class="final-cta-glow-bg" aria-hidden="true"></div>
+      <div class="container final-cta-container">
+        <div class="cta-inner-card">
+          <span class="section-pill mb-4">OCTOBER 14–16, 2026 &bull; SAN FRANCISCO</span>
+          <h2 class="cta-headline">
+            Your Next Big Opportunity <br>
+            <span class="gradient-text">Starts Right Here.</span>
+          </h2>
+          <p class="cta-subtext">
+            Join the international collective shaping artificial intelligence, quantum computing, and executive enterprise leadership. Seats are limited to preserve executive networking density.
+          </p>
+          <div class="cta-actions">
+            <button class="btn btn-lg btn-primary btn-glow" onclick="openRegistrationModal('Professional')">
+              <span>Get Your Ticket Now</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </button>
+            <button class="btn btn-lg btn-secondary" onclick="openSponsorModal()">
+              <span>Become a Sponsor</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" y1="8" x2="19" y2="14"/><line x1="22" y1="11" x2="16" y2="11"/></svg>
+            </button>
+          </div>
+          <div class="cta-perks-row">
+            <span>⚡ Instant Badge Issuance</span>
+            <span>🔒 Secure Checkout</span>
+            <span>🎟️ 100% Money-Back Guarantee</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== 15. FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <!-- Col 1: Brand & Bio -->
+      <div class="footer-col brand-col">
+        <a href="#hero" class="brand-logo footer-logo">
+          <div class="logo-symbol">
+            <svg width="28" height="28" viewBox="0 0 36 36" fill="none">
+              <polygon points="18,3 32,10.5 32,25.5 18,33 4,25.5 4,10.5" stroke="#6366F1" stroke-width="2.2" fill="rgba(99,102,241,0.15)" />
+              <circle cx="18" cy="18" r="5" fill="#38BDF8" />
+            </svg>
+          </div>
+          <div class="logo-text-group">
+            <span class="logo-name">SYNAPSE</span>
+            <span class="logo-year">2026</span>
+          </div>
+        </a>
+        <p class="footer-tagline">
+          The premier global conclave for frontier artificial intelligence, quantum systems, deep tech, and transformative executive leadership.
+        </p>
+        <div class="footer-social-links">
+          <a href="#hero" class="footer-social-icon" aria-label="X / Twitter">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#hero" class="footer-social-icon" aria-label="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+          </a>
+          <a href="#hero" class="footer-social-icon" aria-label="YouTube">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+          <a href="#hero" class="footer-social-icon" aria-label="GitHub">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Col 2: Navigation Links -->
+      <div class="footer-col">
+        <h4 class="footer-heading">Quick Links</h4>
+        <ul class="footer-nav">
+          <li><a href="#hero">Summit Home</a></li>
+          <li><a href="#about">About Conclave</a></li>
+          <li><a href="#highlights">Key Highlights</a></li>
+          <li><a href="#speakers">Distinguished Faculty</a></li>
+          <li><a href="#schedule">Full Chronology</a></li>
+          <li><a href="#venue">Venue &amp; Travel</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Event Tracks -->
+      <div class="footer-col">
+        <h4 class="footer-heading">Summit Tracks</h4>
+        <ul class="footer-nav">
+          <li><a href="#schedule">Frontier Foundation AI</a></li>
+          <li><a href="#schedule">Fault-Tolerant Quantum</a></li>
+          <li><a href="#schedule">Neural Interfaces &amp; Bio</a></li>
+          <li><a href="#schedule">Bipedal Humanoid Robotics</a></li>
+          <li><a href="#schedule">Chatham House Governance</a></li>
+          <li><a href="#schedule">Venture Capital Velocity</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 4: Newsletter Subscription -->
+      <div class="footer-col newsletter-col">
+        <h4 class="footer-heading">Executive Dispatch</h4>
+        <p class="footer-news-text">
+          Receive confidential speaker announcements, technical whitepapers, and exclusive summit briefings directly to your inbox.
+        </p>
+        <form class="newsletter-form" id="newsletterForm" onsubmit="handleNewsletterSubmit(event)">
+          <div class="input-wrap">
+            <input type="email" id="newsletterEmail" placeholder="Enter corporate email..." required aria-label="Corporate Email Address">
+            <button type="submit" class="newsletter-btn" aria-label="Subscribe to dispatch">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </button>
+          </div>
+          <span class="newsletter-note">Zero spam. Encrypted &amp; confidential. Unsubscribe anytime.</span>
+        </form>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom-bar">
+      <div class="container bottom-bar-inner">
+        <p>&copy; 2026 SYNAPSE Global Summit Foundation Inc. All rights reserved.</p>
+        <div class="legal-links">
+          <a href="#hero">Privacy Policy</a>
+          <span class="sep">&bull;</span>
+          <a href="#hero">Terms of Delegation</a>
+          <span class="sep">&bull;</span>
+          <a href="#hero">Code of Conduct</a>
+          <span class="sep">&bull;</span>
+          <a href="#hero">Accessibility Statement</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== BACK TO TOP BUTTON ==================== -->
+  <button class="back-to-top-btn" id="backToTopBtn" aria-label="Scroll back to top" onclick="scrollToTop()">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+  </button>
+
+  <!-- ==================== 9. REGISTRATION MODAL ==================== -->
+  <div class="modal-backdrop" id="registrationModal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <div class="modal-badge">
+          <span class="pulse-dot"></span> SYNAPSE 2026 DELEGATE CREDENTIAL
+        </div>
+        <button class="modal-close-btn" onclick="closeRegistrationModal()" aria-label="Close Registration Modal">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <!-- Form Content -->
+      <div class="modal-body" id="modalFormBody">
+        <h3 class="modal-title" id="modalTitle">Reserve Your Delegate Seat</h3>
+        <p class="modal-subtitle">Complete your credential profile to secure access to the San Francisco summit.</p>
+
+        <form class="reg-form" id="registrationForm" onsubmit="handleRegistrationSubmit(event)">
+          <!-- Tier Selector -->
+          <div class="form-group">
+            <label for="ticketTierSelect" class="form-label">Selected Pass Category</label>
+            <div class="tier-select-grid">
+              <label class="tier-radio-card">
+                <input type="radio" name="ticketTier" value="Basic" id="tierRadioBasic" onchange="updateModalPricing()">
+                <div class="radio-box">
+                  <span class="tier-name-label">Basic</span>
+                  <span class="tier-price-label">$499</span>
+                </div>
+              </label>
+              <label class="tier-radio-card">
+                <input type="radio" name="ticketTier" value="Professional" id="tierRadioPro" checked onchange="updateModalPricing()">
+                <div class="radio-box featured">
+                  <span class="tier-name-label">Professional</span>
+                  <span class="tier-price-label">$999</span>
+                </div>
+              </label>
+              <label class="tier-radio-card">
+                <input type="radio" name="ticketTier" value="VIP" id="tierRadioVip" onchange="updateModalPricing()">
+                <div class="radio-box vip">
+                  <span class="tier-name-label">VIP Conclave</span>
+                  <span class="tier-price-label">$1,999</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Name & Email Row -->
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="regFullName" class="form-label">Full Name *</label>
+              <input type="text" id="regFullName" class="form-input" placeholder="e.g. Dr. Arthur Pendelton" required>
+              <span class="form-error" id="nameError">Please enter your full name.</span>
+            </div>
+            <div class="form-group">
+              <label for="regEmail" class="form-label">Corporate Email *</label>
+              <input type="email" id="regEmail" class="form-input" placeholder="e.g. arthur@quantumcorp.com" required>
+              <span class="form-error" id="emailError">Please enter a valid email address.</span>
+            </div>
+          </div>
+
+          <!-- Phone & Company Row -->
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="regPhone" class="form-label">Phone / WhatsApp *</label>
+              <input type="tel" id="regPhone" class="form-input" placeholder="e.g. +1 (415) 555-0192" required>
+              <span class="form-error" id="phoneError">Please provide your contact telephone.</span>
+            </div>
+            <div class="form-group">
+              <label for="regCompany" class="form-label">Organization / Entity *</label>
+              <input type="text" id="regCompany" class="form-input" placeholder="e.g. Horizons Capital / MIT" required>
+              <span class="form-error" id="companyError">Please specify your organization.</span>
+            </div>
+          </div>
+
+          <!-- Number of Tickets & Promo Code -->
+          <div class="form-row-2">
+            <div class="form-group">
+              <label class="form-label">Number of Passes</label>
+              <div class="ticket-stepper">
+                <button type="button" class="stepper-btn" onclick="stepTicketQty(-1)" aria-label="Decrease tickets">-</button>
+                <span class="stepper-val" id="ticketQtyDisplay">1</span>
+                <button type="button" class="stepper-btn" onclick="stepTicketQty(1)" aria-label="Increase tickets">+</button>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="promoCodeInput" class="form-label">VIP Access / Promo Code</label>
+              <div class="promo-wrap">
+                <input type="text" id="promoCodeInput" class="form-input uppercase" placeholder="Try 'SYNAPSE20'">
+                <button type="button" class="btn btn-sm btn-secondary" onclick="applyPromoCode()">Apply</button>
+              </div>
+              <span class="promo-status-msg" id="promoMsg"></span>
+            </div>
+          </div>
+
+          <!-- Price Summary Breakdown -->
+          <div class="order-summary-box">
+            <div class="summary-line">
+              <span id="summaryTierTitle">Professional Pass (1x)</span>
+              <span id="summaryTierSubtotal">$999.00</span>
+            </div>
+            <div class="summary-line discount-line" id="discountSummaryRow" style="display: none;">
+              <span>Promo Code Discount (20%)</span>
+              <span id="summaryDiscount">-$199.80</span>
+            </div>
+            <div class="summary-line total-line">
+              <span>Total Guaranteed Price</span>
+              <span class="total-amount" id="summaryTotalAmount">$999.00</span>
+            </div>
+          </div>
+
+          <!-- Submit Buttons -->
+          <div class="modal-actions">
+            <button type="button" class="btn btn-secondary" onclick="closeRegistrationModal()">Cancel</button>
+            <button type="submit" class="btn btn-primary btn-glow" id="submitRegBtn">
+              <span>Confirm Reservation &amp; Generate Pass</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+          </div>
+          <p class="modal-footnote">
+            🔒 Demo Checkout Simulation: No real payment captured. Instant mock digital pass will be issued immediately upon confirmation.
+          </p>
+        </form>
+      </div>
+
+      <!-- Success Digital Ticket State -->
+      <div class="modal-body success-state" id="modalSuccessBody" style="display: none;">
+        <div class="success-icon-wrap">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </div>
+        <h3 class="success-title">Credential Confirmed!</h3>
+        <p class="success-sub">Your digital delegate credential for SYNAPSE 2026 has been successfully generated and recorded in the conclave ledger.</p>
+
+        <!-- Digital Ticket Card Presentation -->
+        <div class="digital-pass-card" id="digitalPassView">
+          <div class="pass-header">
+            <div class="pass-brand">
+              <span class="pass-symbol">✦</span>
+              <span>SYNAPSE 2026 CONCLAVE</span>
+            </div>
+            <span class="pass-tier-badge" id="issuedTierBadge">PROFESSIONAL PASS</span>
+          </div>
+
+          <div class="pass-body">
+            <div class="pass-row">
+              <div>
+                <span class="pass-label">DELEGATE NAME</span>
+                <span class="pass-value" id="issuedName">Dr. Arthur Pendelton</span>
+              </div>
+              <div>
+                <span class="pass-label">ORGANIZATION</span>
+                <span class="pass-value" id="issuedOrg">Quantum Horizons MIT</span>
+              </div>
+            </div>
+
+            <div class="pass-row">
+              <div>
+                <span class="pass-label">DATE &amp; LOCATION</span>
+                <span class="pass-value">Oct 14–16, 2026 &bull; Palace of Fine Arts, SF</span>
+              </div>
+              <div>
+                <span class="pass-label">DELEGATE SEATS</span>
+                <span class="pass-value" id="issuedQty">1 Access Pass</span>
+              </div>
+            </div>
+
+            <div class="pass-qr-row">
+              <!-- Stylized Vector QR Code Placeholder -->
+              <div class="qr-box">
+                <svg width="74" height="74" viewBox="0 0 24 24" fill="#6366F1">
+                  <path d="M2 2h8v8H2V2zm2 2v4h4V4H4zm10-2h8v8h-8V2zm2 2v4h4V4h-4zM2 14h8v8H2v-8zm2 2v4h4v-4H4zm10 0h2v2h-2v-2zm4 0h2v2h-2v-2zm-4 4h2v2h-2v-2zm4 0h2v2h-2v-2zm-2-2h2v2h-2v-2zm-6-4h2v2h-2v-2zm2 2h2v2h-2v-2zm0-4h2v2h-2v-2zm4 0h2v2h-2v-2z"/>
+                </svg>
+              </div>
+              <div class="pass-barcode-info">
+                <span class="pass-label">CREDENTIAL REF #</span>
+                <span class="pass-hash" id="issuedHash">SYN-2026-X94B-7F</span>
+                <span class="pass-status-badge">AUTHENTICATED</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="success-actions">
+          <button class="btn btn-primary" onclick="printPass()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+            Print / Save Pass
+          </button>
+          <button class="btn btn-secondary" onclick="resetAndCloseModal()">
+            Done &amp; Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== SPONSOR INQUIRY MODAL ==================== -->
+  <div class="modal-backdrop" id="sponsorModal" aria-hidden="true" role="dialog">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-badge">
+          <span class="pulse-dot"></span> STRATEGIC PARTNERSHIPS
+        </div>
+        <button class="modal-close-btn" onclick="closeSponsorModal()" aria-label="Close Sponsor Modal">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h3 class="modal-title">Partner with SYNAPSE 2026</h3>
+        <p class="modal-subtitle">Present your organization in front of 5,000+ vetted enterprise buyers, institutional allocators, and research leaders.</p>
+
+        <form class="reg-form" onsubmit="handleSponsorSubmit(event)">
+          <div class="form-row-2">
+            <div class="form-group">
+              <label class="form-label">Contact Name *</label>
+              <input type="text" class="form-input" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Corporate Email *</label>
+              <input type="email" class="form-input" placeholder="partnerships@company.com" required>
+            </div>
+          </div>
+          <div class="form-row-2">
+            <div class="form-group">
+              <label class="form-label">Company / Entity *</label>
+              <input type="text" class="form-input" placeholder="Company Name" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Sponsorship Tier of Interest</label>
+              <select class="form-input form-select">
+                <option>Principal Founding Partner ($150,000)</option>
+                <option selected>Keynote Stage Patron ($75,000)</option>
+                <option>Startup Zone Host ($35,000)</option>
+                <option>VIP Lounge &amp; Gala Sponsor ($25,000)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Brief Partnership Objectives</label>
+            <textarea class="form-input form-textarea" rows="3" placeholder="Describe what your organization wants to showcase or achieve at SYNAPSE 2026..."></textarea>
+          </div>
+          <div class="modal-actions">
+            <button type="button" class="btn btn-secondary" onclick="closeSponsorModal()">Cancel</button>
+            <button type="submit" class="btn btn-primary">Submit Sponsorship Inquiry</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
